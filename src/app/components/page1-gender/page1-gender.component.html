@@ -1,0 +1,10 @@
+<p>page1-gender works!</p>
+
+<h2>Select your Gender</h2>
+<select [(ngModel)]="selectedGender">
+  <option [value]="1">Male</option>
+  <option [value]="2">Female</option>
+  <option [value]="3">Other</option>
+</select>
+<br />
+<button (click)="nextPage()">Next</button>

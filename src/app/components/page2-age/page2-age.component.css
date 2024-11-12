@@ -1,0 +1,83 @@
+/* Container for the Age Form */
+.age-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Input Field Styling */
+  input[type="number"] {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #495057;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus effect on Input */
+  input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  /* Hover and Focus effect for Button */
+  button:hover,
+  button:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .age-form-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    input[type="number"],
+    button {
+      max-width: 100%;
+    }
+  }
+  

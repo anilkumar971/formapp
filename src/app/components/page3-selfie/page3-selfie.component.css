@@ -1,0 +1,90 @@
+/* Container for the Selfie Upload Form */
+.selfie-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Styling for the File Input */
+  input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+  
+  .custom-file-upload {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover and Focus effect for File Input Button */
+  .custom-file-upload:hover,
+  .custom-file-upload:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  /* Hover and Focus effect for Button */
+  button:hover,
+  button:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .selfie-upload-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .custom-file-upload,
+    button {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+/* Global Styles for the Container */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styling */
+  h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Styling for Router Outlet */
+  router-outlet {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      max-width: 100%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Styling for Body and Background */
+  body {
+    background-color: #e9ecef;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  

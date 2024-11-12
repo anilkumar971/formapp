@@ -1,0 +1,22 @@
+<p>page4-submit works!</p>
+<!-- src/app/components/page4-submit/page4-submit.component.html -->
+
+<!-- src/app/components/page4-submit/page4-submit.component.html -->
+<!-- src/app/components/page4-submit/page4-submit.component.html -->
+
+<h2>Review and Submit</h2>
+
+<!-- Show the success message if it's set -->
+<div *ngIf="successMessage" class="alert alert-success" role="alert">
+  {{ successMessage }}
+</div>
+
+<!-- Display the form data for review -->
+<p><strong>Gender:</strong> {{ gender }}</p>
+<p><strong>Age:</strong> {{ age }}</p>
+<p><strong>Selfie:</strong> <img [src]="selfiePath" alt="Selfie" width="100"></p>
+
+<button (click)="submitForm()">Submit Form</button>
+
+
+

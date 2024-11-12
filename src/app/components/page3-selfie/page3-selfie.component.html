@@ -1,0 +1,21 @@
+<p>page3-selfie works!</p>
+<div class="selfie-upload-container">
+    <h2>Upload your Selfie</h2>
+  
+    <!-- Custom File Upload Button -->
+    <label for="selfie-upload" class="custom-file-upload">
+      Click to Upload Selfie
+    </label>
+    <input
+      type="file"
+      id="selfie-upload"
+      (change)="onFileChange($event)"
+      accept="image/*"
+      capture="environment"
+    />
+    <br />
+  
+    <!-- Next Button -->
+    <button (click)="nextPage()">Next</button>
+  </div>
+  

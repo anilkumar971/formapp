@@ -1,0 +1,99 @@
+/* Container for the Review and Submit Form */
+.review-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  h2 {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Styling for Paragraphs (Form Data) */
+  p {
+    font-size: 1.1rem;
+    color: #495057;
+    margin: 10px 0;
+  }
+  
+  /* Strong Styling for Form Data Labels */
+  strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Success Message Styling */
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Styling for the Selfie Image */
+  img {
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-top: 10px;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 20px;
+  }
+  
+  /* Hover and Focus effect for Button */
+  button:hover,
+  button:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .review-submit-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    button {
+      max-width: 100%;
+    }
+  
+    img {
+      max-width: 100px;
+    }
+  }
+  
